@@ -30,3 +30,33 @@ b                   { font-weight: bold; }
 .sticky             { }
 .gallery-caption    { }
 .bypostauthor       { }
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background: url(divider-bar.png) no-repeat bottom center;
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+.title-left {
+	font-size: 14px;
+	background: url(divider-bar.png) left bottom no-repeat;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align:left;
+}
+
+.listing-detail-description-wrapper {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	box-shadow: none;
+}
+

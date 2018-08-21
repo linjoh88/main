@@ -53,10 +53,20 @@ h4 {
 	text-align:left;
 }
 
-.listing-detail-description-wrapper {
+.listing-detail-description-wrapper, .listing-detail-attributes {
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	letter-spacing: 0.5px;
-	box-shadow: none;
 }
+
+.box-shadow, .cmb-form, .header-user-menu .dropdown-menu ul, .header-action-inner, .widget.widget_filter form, .widget.widget_booking_form form, .sidebar_dashboard ul.menu, .widget_listings .listing-carousel.owl-carousel .owl-prev, .widget_listings .listing-carousel.owl-carousel .owl-next, .widget_packages .packages, .listing-categories-card, .listing-types-card, .location-poster, .listing-categories-card-image i, .listing-types-card-image i, .pagination .page-numbers, .marker-thumbnail, .listing-box, .listing-column, .listing-column-label-special, .listing-row, .listing-small, .listings-system-legend li, .listings-system-legend a, .listing-system, .listing-author, .listing-author-image, .listing-detail-section-content-wrapper, .listing-detail-gallery-wrapper, .listing-detail-section-generic .listing-detail-section-content-wrapper, .listing-detail-description-wrapper, .listing-detail-attributes, .listing-detail-contact, .listing-detail-section-faq-list, .listing-detail-property-price-comparison, .listing-detail-property-amenities ul li a, .widget_listing_details, .listing-detail-gallery-preview .owl-item div img, .listing-detail-section-generic .taxonomy_multicheck a, .listing-detail-section-generic .taxonomy_multicheck_inline a, .listing-detail-section-generic .taxonomy_multicheck_hierarchy a, .listing-detail-location-wrapper, .opening-hours, .listing-detail-food-wrapper, .listing-detail-resume-working-history dl, .listing-detail-resume-experience, .post-meta, .post.post-masonry .post-masonry-content, .faq-item, .review-image, .review-inner, .comment-form, .widget .submission-steps, .submission-choose-type, .package-info-wrapper, .watchdog-row, .coupon-small, .coupon-box, .widget_coupon_detail, .invoices-table, .transactions-table, .inventor-slider-list .owl-prev, .inventor-slider-list .owl-next, .compare-table-label-special, #compare-info, ul.collections, #collection-pickup {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#listing-detail-section-description h3, #listing-detail-section-description h4, #listing-detail-section-description h5, #listing-detail-section-description h6 {
+    margin-bottom: none; 
+    margin-top: none; 
+}
+
 

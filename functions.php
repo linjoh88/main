@@ -26,3 +26,5 @@ function superlist_child_enqueue_files() {
 }
 
 add_action( 'wp_enqueue_scripts', 'superlist_child_enqueue_files' );
+
+add_image_size( 'single-post-thumbnail', 1140, 656 );

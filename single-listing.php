@@ -10,8 +10,10 @@ get_header(); ?>
 
     <div class="row">
         <div class="col-sm-12">
+            <div class="center-img"><?php the_post_thumbnail( 'single-post-thumbnail' ); ?></div>
+            
             <div id="primary">
-<div class="center-img"><?php the_post_thumbnail(); ?></div>
+
                 <?php dynamic_sidebar( 'content-top' ); ?>
 					
 

@@ -19,10 +19,10 @@ function superlist_child_enqueue_files() {
     # wp_dequeue_style( 'superlist' );
 
     # Register style for custom appearance
-    wp_register_style( 'style', get_stylesheet_directory_uri() . '/style.css' );
+    wp_register_style( 'superlist-custom', get_stylesheet_directory_uri() . '/superlist-custom.css' );
 
     # Include new styles
-    wp_enqueue_style( 'style' );
+    wp_enqueue_style( 'superlist-custom' );
 }
 
 add_action( 'wp_enqueue_scripts', 'superlist_child_enqueue_files' );

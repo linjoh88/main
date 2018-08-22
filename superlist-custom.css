@@ -1,0 +1,81 @@
+/*
+Theme Name: Superlist Child
+Theme URI: http://superlist.byaviators.com
+Author: Aviators
+Author URI: http://byaviators.com
+Template: superlist
+Description: Directory WordPress Theme
+Version: 1.0.0
+Tags: two-columns, right-sidebar, featured-images, translation-ready
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+.center             { text-align: center; }
+.aligncenter        { margin: auto; text-align: center; margin-bottom: 22px; display: block !important;}
+.alignleft          { float: left; margin: 0px 30px 22px 0px;  }
+.alignright         { float: right; margin: 0px 0px 22px 30px; }
+
+.left               { float:left;  }
+.right              { float:right; }
+
+small               { font-size: 12px; line-height: 14px; }
+strong              { }
+b                   { font-weight: bold; }
+
+.normal             { font-weight: normal; }
+.hidden             { display: none; }
+.wp-caption         { }
+.wp-caption-text    { }
+.sticky             { }
+.gallery-caption    { }
+.bypostauthor       { }
+@charset "UTF-8";
+
+
+/*Min kod*/
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background: url(divider-bar.png) no-repeat bottom center;
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+.title-left {
+	font-size: 14px;
+	background: url(divider-bar.png) left bottom no-repeat;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align:left;
+}
+
+.listing-detail-description-wrapper, .listing-detail-attributes {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.box-shadow, .cmb-form, .header-user-menu .dropdown-menu ul, .header-action-inner, .widget.widget_filter form, .widget.widget_booking_form form, .sidebar_dashboard ul.menu, .widget_listings .listing-carousel.owl-carousel .owl-prev, .widget_listings .listing-carousel.owl-carousel .owl-next, .widget_packages .packages, .listing-categories-card, .listing-types-card, .location-poster, .listing-categories-card-image i, .listing-types-card-image i, .pagination .page-numbers, .marker-thumbnail, .listing-box, .listing-column, .listing-column-label-special, .listing-row, .listing-small, .listings-system-legend li, .listings-system-legend a, .listing-system, .listing-author, .listing-author-image, .listing-detail-section-content-wrapper, .listing-detail-gallery-wrapper, .listing-detail-section-generic .listing-detail-section-content-wrapper, .listing-detail-description-wrapper, .listing-detail-attributes, .listing-detail-contact, .listing-detail-section-faq-list, .listing-detail-property-price-comparison, .listing-detail-property-amenities ul li a, .widget_listing_details, .listing-detail-gallery-preview .owl-item div img, .listing-detail-section-generic .taxonomy_multicheck a, .listing-detail-section-generic .taxonomy_multicheck_inline a, .listing-detail-section-generic .taxonomy_multicheck_hierarchy a, .listing-detail-location-wrapper, .opening-hours, .listing-detail-food-wrapper, .listing-detail-resume-working-history dl, .listing-detail-resume-experience, .post-meta, .post.post-masonry .post-masonry-content, .faq-item, .review-image, .review-inner, .comment-form, .widget .submission-steps, .submission-choose-type, .package-info-wrapper, .watchdog-row, .coupon-small, .coupon-box, .widget_coupon_detail, .invoices-table, .transactions-table, .inventor-slider-list .owl-prev, .inventor-slider-list .owl-next, .compare-table-label-special, #compare-info, ul.collections, #collection-pickup {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#listing-detail-section-description h3, #listing-detail-section-description h4, #listing-detail-section-description h5, #listing-detail-section-description h6 {
+    margin-bottom: none; 
+    margin-top: none; 
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+}
+

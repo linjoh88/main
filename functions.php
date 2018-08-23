@@ -22,9 +22,21 @@ function superlist_child_enqueue_files() {
     wp_register_style( 'superlist-custom', get_stylesheet_directory_uri() . '/superlist-custom.css' );
 
     # Include new styles
-    wp_enqueue_style( 'superlist-custom' );
+	wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' );
+	wp_enqueue_style( 'superlist-custom' );
 }
 
-add_action( 'wp_enqueue_scripts', 'superlist_child_enqueue_files' );
+add_action( 'wp_enqueue_scripts', 'superlist_child_enqueue_files', 99 );
+
+function theme_js() {
+
+	global $wp_scripts;
+
+	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+	# wp_enqueue_script( 'my_custom_js', get_template_directory_uri() . '/js/scripts.js');
+
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_js');
 
 add_image_size( 'single-post-thumbnail', 1140, 656 );

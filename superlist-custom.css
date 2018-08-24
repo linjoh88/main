@@ -185,3 +185,30 @@ h1, h2, .comment-reply-title, h3, h4, h5, h6 {
     /* margin-top: 8px; */
     letter-spacing: 1px;
 }}
+
+.home .header-logo {
+	-webkit-filter: invert(1);
+}
+
+.inventor-cover-title h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px;
+    padding: 0 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: Lato;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inventor-cover-title h2 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: platfair display;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}

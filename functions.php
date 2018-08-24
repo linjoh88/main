@@ -40,3 +40,11 @@ function theme_js() {
 add_action( 'wp_enqueue_scripts', 'theme_js');
 
 add_image_size( 'single-post-thumbnail', 1140, 656 );
+
+function change_the_header($url_for_image) {
+    if (is_home()) 
+        $url_for_image = 'http://localhost:81/v6/wp-content/uploads/2018/08/logo_grön.png';
+
+    return $url_for_image;
+}
+add_filter('theme_mod_header_image', 'change_the_header');

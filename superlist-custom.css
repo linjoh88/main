@@ -212,3 +212,12 @@ h1, h2, .comment-reply-title, h3, h4, h5, h6 {
     font-style: italic;
     letter-spacing: 0.5px;
 }
+
+.detail-banner.detail-banner-simple {
+    height: auto;
+    background-color: rgba(10, 171, 154, 0.4);
+}
+
+.listing-detail-attributes ul li.listing_locations {
+    display: none;
+}

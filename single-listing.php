@@ -10,7 +10,7 @@ get_header(); ?>
 
     <div class="row">
         <div class="col-sm-12">
-            <div class="center-img img-responsive"><?php the_post_thumbnail( 'single-post-thumbnail' ); ?></div>
+            
             
             <div id="primary">
 <?php echo esc_attr( get_post_meta( get_the_ID(), INVENTOR_LISTING_PREFIX . 'banner_image', true ) ); ?>

@@ -48,3 +48,4 @@ function change_the_header($url_for_image) {
     return $url_for_image;
 }
 add_filter('theme_mod_header_image', 'change_the_header');
+

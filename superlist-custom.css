@@ -208,7 +208,7 @@ h1, h2, .comment-reply-title, h3, h4, h5, h6 {
     line-height: 1.5;
     padding: 0 15px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    font-family: platfair display;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     letter-spacing: 0.5px;
 }
@@ -221,3 +221,20 @@ h1, h2, .comment-reply-title, h3, h4, h5, h6 {
 .listing-detail-attributes ul li.listing_locations {
     display: none;
 }
+.page-header {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background: url(divider-bar.png) no-repeat bottom center;
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+@media (max-width: 767px){
+.inventor-cover-title h1 {
+    font-size: 36px;
+} }

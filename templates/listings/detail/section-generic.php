@@ -6,7 +6,7 @@
             <?php $value = Inventor_Post_Types::get_field_value( $field, get_the_ID(), 'section' ); ?>
 
             <?php if ( ! empty( $value ) && $field['skip'] ): ?>
-                <?php $section_content .= '<h3 class="listing-detail-section-subtitle '. esc_attr( $field['id'] ) .'">' . esc_attr( $field['name'] ) .'</h3>'; ?>
+                
                 <?php $section_content .= '<p class="'. esc_attr( $field['id'] ) .' '. esc_attr( $field['type'] ) .'">'. $value .'</p>'; ?>
             <?php endif; ?>
 
